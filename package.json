@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "deploy": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network localhost",
-    "deploy:ganache": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network ganache"
+    "deploy:ganache": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network ganache",
+    "task": "hardhat run ./src/Todolist.ts --network ganache"
   },
   "repository": {
     "type": "git",
