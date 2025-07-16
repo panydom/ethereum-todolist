@@ -1,0 +1,21 @@
+{
+  "name": "ethereum-todolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network localhost",
+    "deploy:ganache": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network ganache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@pany.github.com:panydom/ethereum-todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^4.0.0",
+    "hardhat": "^2.25.0"
+  }
+}
