@@ -14,3 +14,7 @@ npx hardhat init # 进行初始化
 [Viem](https://viem.sh/) 是一个轻量、极简、类型安全的以太坊客户端库，由 wagmi 团队开发，目标是取代较重的 ethers.js
 
 通过执行`npm run deploy:ganache`完成合约部署
+
+## ERC20
+
+合约地址：0x5C0173e529df76cCF2e5eA607DbB15A8Da2E367C

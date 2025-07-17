@@ -5,6 +5,8 @@
   "scripts": {
     "deploy": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network localhost",
     "deploy:ganache": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network ganache",
+    "deploy:sepolia": "hardhat ignition deploy ./ignition/modules/Todolist.ts --network sepolia",
+    "deploy-erc20:sepolia": "hardhat ignition deploy ./ignition/modules/ERC20.ts --network sepolia",
     "task": "hardhat run ./src/Todolist.ts --network ganache"
   },
   "repository": {
@@ -17,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^4.0.0",
+    "dotenv": "^17.2.0",
     "hardhat": "^2.25.0"
   }
 }
